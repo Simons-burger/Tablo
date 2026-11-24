@@ -1,15 +1,158 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lichtenstein</title>
+    <title>Liechtenstein — tabló</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-yEPZ7jP9S0QKiUQ0m3jjsO4ProIW7wvR9gXkI7JOGa2XVsw53Yke2bsdkBbjmmiX" crossorigin="anonymous">
-    <link rel="stylesheet" href="/Csani/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main>
-        <h1>Lichtenstein</h1>
+
+    <header class="fejlec text-center text-white">
+        <div class="container py-5">
+            <div class="zaszlo-sor mb-3">
+                <img src="IMG/zaszlo.svg" alt="Liechtenstein zászlaja" class="zaszlo">
+                <img src="IMG/cimer.svg" alt="Liechtenstein címere" class="cimer">
+            </div>
+            <h1 class="display-3 fw-bold">Liechtenstein</h1>
+            <p class="lead">Kis hercegség az Alpok szívében — Svájc és Ausztria között</p>
+        </div>
+    </header>
+
+    <main class="container my-5">
+
+        <section class="mb-5">
+            <h2 class="cimsor">Gyors adatok</h2>
+            <div class="row g-3">
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="adat-kartya"><span class="adat-szam">Vaduz</span><span class="adat-cimke">főváros</span></div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="adat-kartya"><span class="adat-szam">160 km²</span><span class="adat-cimke">terület</span></div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="adat-kartya"><span class="adat-szam">~39 000</span><span class="adat-cimke">lakos</span></div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="adat-kartya"><span class="adat-szam">német</span><span class="adat-cimke">hivatalos nyelv</span></div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="adat-kartya"><span class="adat-szam">CHF</span><span class="adat-cimke">svájci frank</span></div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="adat-kartya"><span class="adat-szam">1719</span><span class="adat-cimke">hercegség alapítása</span></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-5">
+            <h2 class="cimsor">Földrajz</h2>
+            <div class="row g-4 align-items-center">
+                <div class="col-md-6">
+                    <img src="IMG/hegyek.jpg" alt="Malbun hegyvidéki táj Liechtensteinben" class="img-fluid rounded shadow-sm kep-nagy">
+                </div>
+                <div class="col-md-6">
+                    <p>
+                        Liechtenstein a Rajna völgyében fekszik, az Alpok keleti részén.
+                        Nyugatról Svájc, keletről Ausztria határolja. Az ország mindössze
+                        160 km² — nagyjából akkora, mint egy nagyobb magyar város — mégis
+                        hegyvidéki és síkvidéki tájak váltakoznak: a lakosság nagy része
+                        a Rajna menti völgyben él, a többiek hegyi falvakban, például Malbunban.
+                    </p>
+                    <p>
+                        Az országot 11 önkormányzat (község) alkotja, ezek közül a legnagyobb
+                        Vaduz, egyben a főváros is.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-5">
+            <h2 class="cimsor">Látnivalók</h2>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 shadow-sm">
+                        <img src="IMG/vaduz-var.jpg" class="card-img-top kep" alt="Vaduz vára">
+                        <div class="card-body">
+                            <h5 class="card-title">Vaduz vára</h5>
+                            <p class="card-text">A hercegi család lakhelye, a város fölé magasodó szikláról néz le Vaduzra. Az ország legismertebb jelképe.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 shadow-sm">
+                        <img src="IMG/vaduz-varos.jpg" class="card-img-top kep" alt="Vaduz óvárosa">
+                        <div class="card-body">
+                            <h5 class="card-title">Vaduz óvárosa</h5>
+                            <p class="card-text">Szűk, színes utcácskák a fővárosban — sétára, fagyira és képeslap-vásárlásra tökéletes hely.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 shadow-sm">
+                        <img src="IMG/gutenberg-var.jpg" class="card-img-top kep" alt="Gutenberg-vár Balzersban">
+                        <div class="card-body">
+                            <h5 class="card-title">Gutenberg-vár</h5>
+                            <p class="card-text">Balzers városa fölött álló középkori vár — ma múzeum, gyönyörű kilátással a Rajna völgyére.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 shadow-sm">
+                        <img src="IMG/parlament.jpg" class="card-img-top kep" alt="A parlament épülete és a kormányépület Vaduzban">
+                        <div class="card-body">
+                            <h5 class="card-title">Parlament Vaduzban</h5>
+                            <p class="card-text">A Landtag (parlament) modern épülete a főváros szívében áll, a vár és a kormányépület közelében.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-5">
+            <h2 class="cimsor">Történelem röviden</h2>
+            <ul class="list-group shadow-sm">
+                <li class="list-group-item"><strong>1699 / 1719</strong> — a Liechtenstein család megszerzi Vaduz és Schellenberg uradalmait, ezzel létrejön a Liechtensteini Hercegség a Német-római Birodalmon belül.</li>
+                <li class="list-group-item"><strong>1806</strong> — a hercegség csatlakozik a Rajnai Szövetséghez és szuverén, azaz önálló állam lesz.</li>
+                <li class="list-group-item"><strong>1868</strong> — Liechtenstein feloszlatja hadseregét, azóta nincs katonasága.</li>
+                <li class="list-group-item"><strong>1921</strong> — új alkotmány: alkotmányos monarchia, a herceg és a parlament együtt kormányoz.</li>
+                <li class="list-group-item"><strong>Ma</strong> — II. János Ádám herceg az államfő, az ország az EGT és a schengeni övezet tagja.</li>
+            </ul>
+        </section>
+
+        <section class="mb-5">
+            <h2 class="cimsor">Érdekességek</h2>
+            <div class="row g-3">
+                <div class="col-md-4">
+                    <div class="erdekesseg">Nincs repülőtere — a legközelebbi Zürichben van.</div>
+                </div>
+                <div class="col-md-4">
+                    <div class="erdekesseg">Nincs autópályája, de vasútja igen: a svájci SBB vonala keresztülhalad rajta.</div>
+                </div>
+                <div class="col-md-4">
+                    <div class="erdekesseg">A világ két „duplán körbezárt” országa közül az egyik — a másik Üzbegisztán.</div>
+                </div>
+                <div class="col-md-4">
+                    <div class="erdekesseg">Híres a bélyegeiről — a bélyeggyűjtők körében igazi különlegesség.</div>
+                </div>
+                <div class="col-md-4">
+                    <div class="erdekesseg">Malbun és Steg síterepei télen-nyáron népszerűek.</div>
+                </div>
+                <div class="col-md-4">
+                    <div class="erdekesseg">Mindössze 11 község alkotja, fővárosa Vaduz.</div>
+                </div>
+            </div>
+        </section>
+
     </main>
+
+    <footer class="lablec text-center text-white py-4">
+        <div class="container">
+            <p class="mb-1">Készítette: <strong>Csani</strong> — IKT projekt, tabló Liechtensteinről</p>
+            <p class="mb-0 kicsi">Képek forrása: Wikimedia Commons</p>
+        </div>
+    </footer>
+
 </body>
 </html>
