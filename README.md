@@ -1,3 +1,2 @@
-# Csani branch IKT-ra
+# IKT
 
-Majd mergelve lesz nyugi sracok
