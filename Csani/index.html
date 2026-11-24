@@ -1,15 +1,159 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lichtenstein</title>
+    <title>Liechtenstein</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-yEPZ7jP9S0QKiUQ0m3jjsO4ProIW7wvR9gXkI7JOGa2XVsw53Yke2bsdkBbjmmiX" crossorigin="anonymous">
-    <link rel="stylesheet" href="/Csani/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main>
-        <h1>Lichtenstein</h1>
-    </main>
+
+    <nav class="navbar navbar-expand-md navbar-dark kek">
+        <div class="container">
+            <a class="navbar-brand" href="#">Liechtenstein</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#adatok">Adatok</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#foldrajz">Földrajz</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#latnivalok">Látnivalók</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#tortenelem">Történelem</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#erdekessegek">Érdekességek</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="fejlec text-center text-white">
+        <img src="IMG/cimer.svg" alt="címer" class="cimer">
+        <h1>Liechtenstein</h1>
+        <p>Liechtensteini Hercegség</p>
+    </div>
+
+    <div class="container mt-4 mb-5">
+
+        <p>
+            A tablóm témája Liechtenstein. Ez egy nagyon kicsi ország Európában, Svájc és Ausztria
+            között. Előtte nem sokat tudtam róla, ezért választottam, hogy többet megtudjak.
+        </p>
+
+        <h2 id="adatok">Adatok</h2>
+        <div class="row">
+            <div class="col-md-8">
+                <table class="table table-bordered">
+                    <tr><th>Főváros</th><td>Vaduz</td></tr>
+                    <tr><th>Terület</th><td>160 km²</td></tr>
+                    <tr><th>Lakosság</th><td>kb. 39 000 fő</td></tr>
+                    <tr><th>Nyelv</th><td>német</td></tr>
+                    <tr><th>Pénz</th><td>svájci frank</td></tr>
+                    <tr><th>Államforma</th><td>alkotmányos monarchia</td></tr>
+                    <tr><th>Mióta létezik</th><td>1719</td></tr>
+                </table>
+            </div>
+            <div class="col-md-4 text-center">
+                <img src="IMG/zaszlo.svg" alt="zászló" class="img-fluid zaszlo">
+                <p class="mt-2">
+                    A zászló kék és piros, a sarkában egy korona van. A koronát 1937-ben rakták rá,
+                    mert Haitinak ugyanilyen zászlaja volt.
+                </p>
+            </div>
+        </div>
+
+        <h2 id="foldrajz">Földrajz</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <img src="IMG/hegyek.jpg" alt="hegyek" class="img-fluid rounded mb-3">
+            </div>
+            <div class="col-md-6">
+                <p>
+                    Liechtenstein az Alpokban van, a Rajna mellett. Nyugaton Svájc, keleten Ausztria
+                    a szomszédja. A területe 160 km², ez kisebb, mint Budapest.
+                </p>
+                <p>
+                    A Rajna mellett lapos a terület, itt van a legtöbb város. Keleten hegyek vannak,
+                    ott van például Malbun, ahol síelni is lehet.
+                </p>
+                <p>
+                    11 községből áll. A legnagyobb Schaan, a főváros Vaduz.
+                </p>
+            </div>
+        </div>
+
+        <h2 id="latnivalok">Látnivalók</h2>
+        <div class="row">
+            <div class="col-sm-6 col-lg-3 mb-3">
+                <div class="card h-100">
+                    <img src="IMG/vaduz-var.jpg" class="card-img-top kep" alt="Vaduz vára">
+                    <div class="card-body">
+                        <h5 class="card-title">Vaduz vára</h5>
+                        <p class="card-text">Itt lakik a herceg és a családja. Egy sziklán van a város felett. Belülről nem lehet megnézni.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-3 mb-3">
+                <div class="card h-100">
+                    <img src="IMG/vaduz-varos.jpg" class="card-img-top kep" alt="Vaduz">
+                    <div class="card-body">
+                        <h5 class="card-title">Vaduz</h5>
+                        <p class="card-text">A főváros, de csak kb. 5700 ember lakik benne. Vannak múzeumok és boltok.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-3 mb-3">
+                <div class="card h-100">
+                    <img src="IMG/gutenberg-var.jpg" class="card-img-top kep" alt="Gutenberg vár">
+                    <div class="card-body">
+                        <h5 class="card-title">Gutenberg vár</h5>
+                        <p class="card-text">Középkori vár Balzersben, egy dombon áll.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-3 mb-3">
+                <div class="card h-100">
+                    <img src="IMG/parlament.jpg" class="card-img-top kep" alt="parlament">
+                    <div class="card-body">
+                        <h5 class="card-title">Parlament</h5>
+                        <p class="card-text">A parlament neve Landtag. Az épület Vaduzban van, elég modern.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h2 id="tortenelem">Történelem</h2>
+        <table class="table table-striped">
+            <thead>
+                <tr><th>Év</th><th>Mi történt</th></tr>
+            </thead>
+            <tbody>
+                <tr><td>1699</td><td>A Liechtenstein család megveszi Schellenberget.</td></tr>
+                <tr><td>1712</td><td>Megveszik Vaduzt is.</td></tr>
+                <tr><td>1719</td><td>A két területből hercegség lesz, ez Liechtenstein.</td></tr>
+                <tr><td>1806</td><td>Független ország lesz.</td></tr>
+                <tr><td>1868</td><td>Megszüntetik a hadsereget.</td></tr>
+                <tr><td>1921</td><td>Új alkotmány.</td></tr>
+                <tr><td>ma</td><td>Az államfő II. János Ádám herceg.</td></tr>
+            </tbody>
+        </table>
+
+        <h2 id="erdekessegek">Érdekességek</h2>
+        <ul>
+            <li>Nincs repülőtere, a legközelebbi Zürichben van.</li>
+            <li>1868 óta nincs hadserege.</li>
+            <li>Csak két olyan ország van, ahonnan két országon kell átmenni, hogy elérd a tengert. Az egyik Liechtenstein, a másik Üzbegisztán.</li>
+            <li>Híresek a bélyegei.</li>
+            <li>Malbunban lehet síelni.</li>
+        </ul>
+
+    </div>
+
+    <footer class="kek text-white text-center py-3">
+        Készítette: Csani<br>
+        <small>Képek: Wikimedia Commons</small>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/js/bootstrap.bundle.min.js" integrity="sha384-WyOxWvTyr1QaMPfiPJSv76iReVthorl5uWlFtZPyK0IEB0hGzo9y5Bp9mYanr8Bu" crossorigin="anonymous"></script>
 </body>
 </html>
