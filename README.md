@@ -1,3 +1,3 @@
-# Tablo
+# Csani branch IKT-ra
 
-asd
+Majd mergelve lesz nyugi sracok
